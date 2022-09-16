@@ -19,3 +19,5 @@ Atualmente encontram-se implementados os operadores:
 - [] : colchetes para indicar a incerteza  associado a um valor, deve ser posicionado á direita do valor ao qual essa incerteza se aplica
 
 Exemplo: Suponha que precisamos calcular a energia cinética (mv^2/2) de um corpo que medimos a massa como sendo 3Kg ± 0.1 e velocidade de 10m/s  ± 0.2. A equação que deve ser colocada como entrada no programa é : (3[0.1]*10[0.2]^2)/2
+
+nota: Não use incerteza associada as constantes "pi" e "e" já definidas no programa. Isso não faz sentido e causa erros de execução.
