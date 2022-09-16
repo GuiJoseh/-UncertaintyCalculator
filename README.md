@@ -2,15 +2,12 @@
 Trata-se de um uma calculadora desenvolvida por mim durante as aulas de física experimental na universidade com o objetivo de acelerar o processo do calculo de propagação de incerteza.
 Para utilizar esse software, basta baixar o código fonte e compila-lo em sua máquina. Ao executar o programa você irá se deperar com um  terminal aguardando que você digite uma expressão matemática.
 Atualmente encontram-se implementados os operadores:
- + : adição
- 
- - : subtração
- 
- * : multiplicação
- 
-/ : divisão
-^ : potenciação
-log : logaritmo base 10
+- + : adição
+- - : subtração
+- * : multiplicação
+- / : divisão
+- ^ : potenciação
+- log : logaritmo base 10
 ln : logaritimo base e
 sin : seno
 sen : seno
