@@ -393,10 +393,8 @@ int main(){
 	cout << "Digite a Formula:"<< endl;
 	gets(exp);
 	exp2 = infix2posfix(exp);
-	//cout << exp2 << endl;
 	v = convertString(exp2);
-	cout << "Valor:" << v.valor << endl;
-	cout << "Incer:" << v.incert << endl;
+	cout << "Result:" << v.valor << "[" <<v.incert<< "]" << endl;
 	cout << endl << "Deseja Repetir? S ou N" << endl;
 	cin >> exp;
 	cout << endl;
